@@ -3,6 +3,8 @@ import uuid
 from anytree import Node
 from streamlit_tree_select import tree_select
 
+st.title("iFMEA")
+
 # Define allowed child node types for each node type
 allowed_child_types = {
     'System': ['SubSystem', 'Function'],
